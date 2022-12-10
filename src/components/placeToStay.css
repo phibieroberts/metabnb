@@ -1,0 +1,43 @@
+.place-to-stay{
+    width: 85%;
+    margin:40px auto;
+}
+.filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+.filter a{
+    text-decoration: none;
+    color: #434343;
+    font-size: 16px;
+
+}
+
+.filter button{
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #474242 87.34%);
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+    color: #434343;
+    font-size: 14px;
+
+}
+button {
+display: flex;
+}
+button img{
+    width: 20px;
+    margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+    .filter{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .filter a{
+        margin: 5px;
+    }
+}
