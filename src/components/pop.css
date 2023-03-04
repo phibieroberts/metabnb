@@ -1,0 +1,60 @@
+.popup{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+
+.pop-container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: rgb(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.pop-container h1{
+    float: right;
+    color: #fff;
+    text-align: right;
+    cursor: pointer;
+    width: 90%;
+}
+.pop{
+    background:#ffa;
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10% auto;
+}
+.test{
+    position: relative;
+}
+.test img{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.test p{
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, 0%);
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

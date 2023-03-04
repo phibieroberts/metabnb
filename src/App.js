@@ -7,6 +7,8 @@ import{BrowserRouter as Router, Route, Routes} from "react-router-dom"
 
 
 function App() {
+  const[popUp, setPopUp]=useState(false)
+
   return (
     <div className="App">
       <Router>
